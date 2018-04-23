@@ -183,7 +183,7 @@ class TurkuBuses extends Component {
                                       showBuses={this.showBuses}
                                       refresh={this.refresh}
                                       showRoute={this.showRoute}
-                                      small="large"
+                                      size="large"
                             /></div>
                         <div className="right-large"><GoogleMap markers={this.state.markers}
                                                                 route={this.state.busTrip}/></div>
@@ -197,7 +197,7 @@ class TurkuBuses extends Component {
                                       showBuses={this.showBuses}
                                       refresh={this.refresh}
                                       showRoute={this.showRoute}
-                                      small="small"
+                                      size="small"
                             /></div>
                         <div className="right-small"><GoogleMap markers={this.state.markers}
                                                                 route={this.state.busTrip}/>

@@ -13,7 +13,7 @@ const controls = (props) => {
 
     return (
         <Aux>
-            <div className={props.small}>
+            <div className={props.size}>
                 <select className="select" onChange={props.handleSelect} defaultValue="">
                     <option value="" disabled>Select bus number</option>
                     {options}
