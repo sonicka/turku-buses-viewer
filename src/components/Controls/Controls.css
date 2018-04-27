@@ -5,11 +5,12 @@
     margin-top: 10px;
     margin-bottom: 10px;
     background-color: #0c85ad;
-    border: 1px solid #033444;
+    border: 0.5px solid #033444;
     color: white;
+    font-family: 'Tajawal', sans-serif;
 }
 
-button:hover {
+.large button:hover {
     background-color: #026484;
 }
 
@@ -20,17 +21,19 @@ button:hover {
 
 .small select {
     font-size: 11px;
+    font-family: 'Tajawal', sans-serif;
 }
 
 .small button {
     background-color: #0c85ad;
-    border: 1px solid #033444;
+    border: 0.5px solid #033444;
     color: white;
     padding: 10px 12px;
     cursor: pointer;
     width: 33%;
     min-width: 100px;
     font-size: 11px;
+    font-family: 'Tajawal', sans-serif;
 }
 
 .large {
@@ -40,16 +43,18 @@ button:hover {
 
 .large button {
     background-color: #0c85ad;
-    border: 1px solid #033444;
+    border: 0.5px solid #033444;
     color: white;
-    padding: 10px 24px;
+    padding: 8px 24px;
     cursor: pointer;
     width: 100%;
     min-width: 134px;
     display: block; /* Make the buttons appear below each other */
+    font-family: 'Tajawal', sans-serif;
 }
 
 
 .large button:not(:last-child) {
     border-bottom: none; /* Prevent double borders */
+    font-family: 'Tajawal', sans-serif;
 }
